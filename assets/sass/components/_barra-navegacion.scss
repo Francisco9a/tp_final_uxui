@@ -1,0 +1,104 @@
+.navigation { position: relative;
+line-height: 0px;
+width: 100%;
+}
+
+.navigation__logo { position: absolute; 
+    top: .7em; 
+    left: 2.5em;
+}
+
+.collapsible { 
+    text-align: right;
+    width: 100%;
+
+
+    label { display: block; 
+        padding-top: .4em; 
+        padding-bottom: .2em; 
+        padding-right: 1em; 
+        font-size: 1.8rem;
+        width: 25px;
+        margin-left: auto;
+    }
+    }
+
+    #menu { display: none;
+    }
+
+    input:checked ~ .navigation__container { max-height: 100%;
+    }
+
+    .navigation__container { max-height: 0; 
+        padding: 0; 
+        overflow: hidden;
+    }
+
+    .navigation__item { a { 
+        display: block; 
+        text-align: left; 
+        padding: .5em; 
+        font-family: $roboto; 
+        font-size: 1.2rem; 
+        font-weight: $pesada; 
+        color: $gris2; 
+        text-decoration: none;
+
+        &:hover {
+        color: $gris_oscuro; 
+    } 
+}
+}
+
+
+li.navigation__item {
+    list-style: none; 
+    a { 
+        padding: 1em 1em; 
+        font-size: 1rem; 
+        font-weight: $regular;
+        color: $gris2;
+        text-align: right;
+    }
+}
+
+
+div.contenedor_nav{
+    background-color: $amarillo_claro;
+position: fixed;
+bottom: 0px;
+width: 411px;
+box-shadow: 0px 2px 5px lightgray, 0px -2px 5px lightgray,-2px 0px 5px lightgray,;
+
+}
+
+.fa-bell{
+    position: absolute;
+    top: 8px;
+    right: 20px;
+
+    &:hover{
+        color: $gris2;
+        cursor: pointer;
+
+    }
+}
+
+.fa-bars{
+
+    &:hover{
+        color: $gris2;
+        cursor: pointer;
+    }
+}
+
+.back-arrow{
+    color: black;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    
+    &:hover{
+        color: $gris2;
+
+    }
+}

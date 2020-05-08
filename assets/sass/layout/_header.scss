@@ -1,0 +1,59 @@
+.header{
+    padding:15px 15px;
+    // display:flex;
+    // justify-content: space-between;
+    // align-items: center;
+    background-color: $amarillo_claro;
+    border-width: 1.5px 0px;
+    border-color: $gris_claro;
+    border-style: solid;
+    height: 350px;
+}
+
+svg.header-logo{
+
+    height: 43px;
+    .a {
+        fill: none;
+    }
+
+    .b {
+        fill: #EEAC02;
+    }
+}
+
+.header__nombre-seccion{
+font-size: $enorme;
+font-weight:$negra;
+color: $azul;
+margin: 0;
+}
+
+.header__cantidad-total{
+    color: $azul;
+    font-size: $muygrande;
+    font-weight: $pesada;
+    margin:0px;
+}
+
+.encabezado, .linea_total, .item, .botones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.linea_total h2{
+    font-weight: $pesada;
+    font-size: $grande;
+    margin: 15px 0px 0px 0px;
+}
+.linea_total__num{
+color: $azul;
+}
+.item__num{
+    font-weight: $pesada;
+}
+.item p{
+    margin: 5px 0px;
+    font-style: italic;
+    color: $gris_oscuro;
+}

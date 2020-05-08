@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Al Dia | Aplicacion de Pagos</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100;1,300&display=swap"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a04b018f3c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <!---------------------------- Barra Encabezado ------------------------------------->
+  <header class="p-4">
+
+    <h1 class="titulo_pantalla">ECOGAS</h1>
+
+  </header>
+  <main class="p-4">
+    <ul class="info_pago">
+      <li class="info_pago__n_comprobante">
+        <p class="info_pago__concepto">N° Comprobante</p>
+        <p class="info_pago__valor">1234567743</p>
+      </li>
+      <li class="info_pago__fecha_vto">
+        <p class="info_pago__concepto">Fecha de Vencimiento</p>
+        <p class="info_pago__valor">17/03/2020</p>
+      </li>
+      <li class="info_pago__monto">
+        <p class="info_pago__concepto">Monto a Pagar</p>
+        <p class="info_pago__valor">$1.000</p>
+      </li>
+    </ul>
+    <div class="text-right mt-5"> <button type="button" class=" ver_comprobante btn btn-outline-warning">VER
+        COMPROBANTE</button></div>
+    <br>
+
+
+    <div class="dropdown mt-5">
+      <button class="btn btn-outline-dark dropdown-toggle tarjetas mx-auto" type="button" id="dropdownMenuButton"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <P class=' my-0'>VISA</P>
+        <P class='my-0  ml-5 pl-4'>XXXX XXXX XXXX 1234</P>
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item tarjetas" href="#">
+          <P class=' my-0 mr-5'>PAYPAL</P>
+          <P class='my-0 ml-4'>XXXX XXXX XXXX 4321</P>
+        </a>
+        <a class="dropdown-item tarjetas" href="#">
+          <P class=' my-0'>MASTERCARD</P>
+          <P class='my-0 ml-4'>XXXX XXXX XXXX 5678</P>
+        </a>
+        </a>
+      </div>
+    </div>
+
+
+
+    <p class="my-5 text-center desea_pagar">¿Desea pagar este comprobante?</p>
+
+    <div class="mt-4 d-flex justify-content-between">
+
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#staticBackdrop">
+        CANCELAR
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade margen100" id="staticBackdrop" data-backdrop="static" tabindex="-1" role="dialog"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              <p>¿Estás seguro de que querés volver al menú anterior?</p>
+            </div>
+            <div class="modal-footer">
+              <a href=""><button type="button" class="btn btn-outline-secondary"
+                  style="font-size: 12px">CANCELAR</button></a>
+              <a href="index.html"><button type="button" class="btn btn-outline-primary mx-3" style="font-size: 12px"
+                  ;>ACEPTAR</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="Comprobante_Compra.html" class="boton-pagar">PAGAR</a>
+
+
+    </div>
+  </main>
+
+<footer>
+        <!-- Navigation -->
+        <div class="contenedor_nav">
+          <nav class="navigation row d-flex justify-content-between">
+              <div class="navigation__logo">
+                <button type="button" class="back-arrow" data-toggle="modal" data-target="#staticBackdrop">
+<i class="fas fa-chevron-left fa-2x"></i>
+                </button>
+              </div>
+              
+              <div class="collapsible col-xs-12">
+<i class="fas fa-bell fa-2x mr-5"></i>
+                  <input type="checkbox" id="menu">
+                  <label for="menu"> <i class="fas fa-bars"></i></label>
+                  <div class="navigation__container">
+                      <ul class="navigation__list">
+                          <li class="navigation__item"><a href="#"> MIS PUNTOS</a></li>
+                          <li class="navigation__item"><a href="#">ACTIVIDAD RECIENTE</a></li>
+                          <li class="navigation__item"><a href="#">MIS CUENTAS</a></li>
+                          <li class="navigation__item"><a href="#">MEDIOS DE PAGO</a></li>
+                          <li class="navigation__item"><a href="#">PAGAR CUENTAS</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+      </div>
+
+  </footer>
+
+</footer>
+
+
+
+  <!-- jQuery first -->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

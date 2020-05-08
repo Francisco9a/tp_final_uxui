@@ -1,0 +1,79 @@
+h3{
+    margin:0px;
+}
+
+.tarjeta-cuenta{
+    display: flex;
+    width: 405px;
+    max-width: 600px;
+    height: 130px;
+    box-shadow: 0px 4px 2px lightgray, 0px -4px 2px lightgray,4px 0px 2px lightgray,-4px 0px 2px lightgray,;
+    margin: auto;
+}
+
+.tarjeta-cuenta__identificador{
+    background-color: $gris_claro;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.tarjeta-cuenta__radius-button{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    height: 25px;
+    width: 25px;
+    background-color: $blanco;
+    border-radius: 50%;
+    border: 3px solid $blanco;
+
+    &:hover {
+        background-color: rgb(49, 48, 48);
+    }
+}
+
+// CUERPO DE LA TARJETA
+.tarjeta-cuenta__cuerpo{
+    padding: 10px 15px;
+    width: 100%;
+    position: relative;
+}
+.tarjeta-cuenta__razon_social{
+font-size: $grande;
+font-weight: $pesada;
+}
+.tarjeta-cuenta__fecha_vto{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px 5px 0px;
+    font-size: $normal;
+}
+p.tarjeta-cuenta__fecha_vto_texto{
+      margin:0px;
+}
+
+p.tarjeta-cuenta__fecha_vto_fecha{
+    margin:0px;
+}
+
+.tarjeta-cuenta__valor{
+    font-size: $grande;
+    font-weight: $pesada;
+    color: $azul; 
+}
+
+.tarjeta-cuenta__abrir_comprobante{
+font-size: $pequena;
+color: $azul;
+}
+
+.tarjeta-cuenta__boton-pagar{
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+}

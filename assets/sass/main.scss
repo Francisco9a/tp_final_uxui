@@ -1,0 +1,44 @@
+// @charset 'UTF-8';
+
+// // 1. Configuration and helpers
+@import
+  'abstracts/variables';
+
+
+// 2. Vendors
+@import
+'vendors/normalize',
+'vendors/bootstrap-4.4.1/bootstrap';
+
+// // 3. Base stuff
+@import
+  'base/base',
+  'base/tipografia';
+
+
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/info';
+
+
+// // 5. Componentes
+@import
+'components/barra-navegacion',
+'components/botones',
+'components/menu',
+'components/tarjetas';
+;
+
+// // 6. Page-specific styles
+// @import
+//   'pages/home';
+
+// // 7. Themes
+// @import
+//   'themes/default';
+
+
+@import
+'general';
+

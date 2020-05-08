@@ -1,0 +1,47 @@
+
+.boton-pagar-todo{
+    font-size: $boton;
+    color: $blanco;
+    font-weight: 550;
+    background-color: $verde;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border:2px solid $verde;
+
+    &:hover{
+        background-color: #33aa73;
+        text-decoration: none; 
+        color: $blanco;  
+
+    }
+
+    &:active{
+        background-color: $blanco;
+        border:2px solid $verde;
+        color: $verde;
+        text-decoration: none;
+    }
+}
+
+.boton-pagar{
+    font-size: $boton;
+    color: $verde;
+    font-weight: $pesada;
+    border-radius: 5px;
+    background-color: $blanco;
+    padding: 5px 15px;
+    border:2px solid $verde;
+
+    &:hover{
+        text-decoration: none; 
+        color: $verde;  
+        background-color: #e4f8ef;
+    }
+
+    &:active{
+        background-color: $verde;
+        border:2px solid $blanco;
+        color: $blanco;
+        text-decoration: none;
+    }
+}

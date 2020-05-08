@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Dia | Aplicacion de Pagos</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100;1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a04b018f3c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!---------------------------- Barra Encabezado ------------------------------------->
+    <header class="header">
+        <div class="encabezado">
+
+            <svg xmlns="http://www.w3.org/2000/svg" class="header-logo" width="43" height="43" viewBox="0 0 137 161" class="a header-logo">
+
+                <path
+                    d="M56.4 136.9C87.6 136.9 112.8 111.6 112.8 80.5 112.8 49.4 87.6 24.1 56.4 24.1 56.2 24.1 56.1 24.1 55.9 24.1V136.9C56.1 136.9 56.2 136.9 56.4 136.9ZM44.2 135.5V95.1H15.1C18.1 103.7 23.8 111.1 31.2 116.3L24 126.6C21.7 125 19.5 123.2 17.5 121.3 24.8 128.3 34 133.3 44.2 135.5ZM15.8 119.6C10.1 113.7 5.7 106.6 3 98.8 -0.8 87.5-1 75.3 2.5 63.9 5.1 55.4 9.7 47.7 15.8 41.4 6 51.5 0 65.3 0 80.5 0 95.7 6 109.5 15.8 119.6ZM17.3 39.9C19 38.3 20.7 36.8 22.6 35.4 32.1 28.2 43.7 24.3 55.6 24.1L55.6 24.2 55.9 24.1C40.9 24.3 27.3 30.3 17.3 39.9ZM44.2 38.5V82.7H12.7C12.4 77.6 13 72.5 14.5 67.6 17.3 58.8 22.7 51 30.2 45.5 34.4 42.3 39.1 39.9 44.2 38.5Z"
+                    class="b" />
+                <rect x="53.5" width="4.5" height="14.1" class="b" />
+                <rect x="54.2" y="146.9" width="4.5" height="14.1" class="b" />
+                <rect x="137" y="77.9" width="4.5" height="14.1" transform="rotate(90 137 77.9144)" class="b" />
+                <rect width="4.5" height="14.1" transform="matrix(0.707449 -0.706764 0.707449 0.706764 100.766 130.038)"
+                    class="b" />
+                <rect width="4.5" height="14.1" transform="matrix(-0.70745 -0.706764 0.70745 -0.706764 103.593 33.8492)"
+                    class="b" />
+            </svg>
+
+
+            <h1 class="header__nombre-seccion">
+                CUENTAS
+            </h1>
+        </div>
+
+        <div class="info_cant">
+            <div class="linea_total">
+                <h2 class="linea_total__texto"> Cantidad a Pagar</h2>
+                <h2 class="linea_total__num">7</h2>
+            </div>
+            <div class="item">
+                <p class="item__texto">Vencen esta semana</p>
+                <p class="item__num">4</p>
+            </div>
+            <div class="item">
+                <p class="item__texto">Vencen la proxima semana</p>
+                <p class="item__num">3</p>
+            </div>
+        </div>
+
+        <div class="info_monto">
+            <div class="linea_total">
+                <h2 class="linea_total__texto">Monto a Pagar</h2>
+                <h2 class="linea_total__num">$16.530</h2>
+            </div>
+            <div class="item">
+                <p class="item__texto">Vencen esta semana</p>
+                <p class="item__num">$2.300</p>
+            </div>
+            <div class="item">
+                <p class="item__texto">Vencen la proxima semana</p>
+                <p class="item__num">$10.200</p>
+            </div>
+        </div>
+
+        <div class="botones mt-3">
+            <button type="button" class="btn btn-warning" style="padding: 5px; font-weight: 500;color: white;">CREAR
+                CUENTA</button>
+            <a href="" title="" class="boton-pagar-todo">
+                PAGAR TODO </a>
+    </header>
+    </div>
+    <!------------------- Cuerpo Cuentas a Pagar ----------------------------------->
+    <Main class="fluid">
+
+        <!-- TARJETA ECOGAS -->
+        <article class="fluid tarjeta-cuenta my-2">
+            <div class="tarjeta-cuenta__identificador">
+                <a href="" title="" href="" title="" class="tarjeta-cuenta__radius-button"></a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="49" height="71" viewBox="0 0 49 71" class="a">
+                    <style>
+                        .a {
+                            fill: none;
+                        }
+
+                        .b {
+                            fill: #B5B4B4;
+                        }
+                    </style>
+                    <path
+                        d="M13.7 41.8C13.7 31.3 31.6 24.3 31.6 12.9 31.6 6.2 25.8 0.3 24.9 0 25 0.5 25 1 25 1.4 25 14.5 0 23.3 0 39.7 0 46.8 5.5 51 11.3 55.1 22.4 61.8 24.6 65.3 24.6 67.5 24.6 68.9 23.8 69.9 23.8 70.6 26 68.3 26.7 66.1 26.8 64 26.8 59.8 23.1 56 19.2 51.7 16.5 48.5 13.7 45.6 13.7 41.8ZM48.6 36.2C46.6 26.7 35.4 18.5 32.5 17.6L33.2 18.6C33.6 19.3 33.8 20.2 33.8 21.1 33.8 27.4 24.6 36.9 24.1 37.7 23.8 38.4 23.6 39.2 23.6 39.9 23.6 42.8 26.2 45.9 26.6 45.9 27.1 45.9 36.3 38 36.5 33.4 37.6 35.1 38.1 36.7 38.1 38.2 38.1 44.1 31 52 31 52 31 53.6 36.4 59.6 37 59.6 37.2 59.6 37.4 59.4 37.5 59.2 44 53.6 49 47.1 49 39.7 49 38.6 48.9 37.4 48.6 36.2Z"
+                        class="b" />
+                </svg>
+            </div>
+            <div class="tarjeta-cuenta__cuerpo ">
+                <h3 class="tarjeta-cuenta__razon_social"> ECOGAS </h3>
+                <div class="tarjeta-cuenta__fecha_vto">
+                    <p class="tarjeta-cuenta__fecha_vto_texto">Fecha de Vencimiento</p>
+                    <p class="tarjeta-cuenta__fecha_vto_fecha">17/03/2020</p>
+                </div>
+                <div class="tarjeta-cuenta__precio_comprobante--70">
+                    <h4 class="tarjeta-cuenta__valor"> $1.000</h4>
+                    <p class="tarjeta-cuenta__abrir_comprobante">Abrir comprobante</p>
+                </div>
+                <div class="tarjeta-cuenta__espacio--30">
+                    <a href="Cuenta_por_Pagar.html" title="" class="tarjeta-cuenta__boton-pagar boton-pagar"> PAGAR</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- TARJETA EPEC -->
+        <article class="fluid tarjeta-cuenta my-3">
+            <div class="tarjeta-cuenta__identificador">
+                <a href="" title="" class="tarjeta-cuenta__radius-button"> </a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="44" height="64" viewBox="0 0 44 64" fill="none">
+                    <path
+                        d="M12 56.8C12 57.6 12.2 58.3 12.7 59L14.8 62.2C15.2 62.8 15.7 63.2 16.3 63.5 16.8 63.8 17.5 64 18.1 64H25.9C26.5 64 27.2 63.8 27.7 63.5 28.3 63.2 28.8 62.8 29.2 62.2L31.3 59C31.8 58.3 32 57.6 32 56.8L32 52H12L12 56.8ZM0 22C0 27.5 2.1 32.6 5.4 36.5 7.5 38.8 10.7 43.8 12 47.9 12 47.9 12 48 12 48H32C32 48 32 47.9 32 47.9 33.3 43.8 36.5 38.8 38.6 36.5 41.9 32.6 44 27.5 44 22 44 9.8 34.1 0 21.9 0 9.2 0 0 10.4 0 22ZM22 12C16.5 12 12 16.5 12 22 12 23.1 11.1 24 10 24 8.9 24 8 23.1 8 22 8 14.3 14.3 8 22 8 23.1 8 24 8.9 24 10 24 11.1 23.1 12 22 12Z"
+                        fill="#B5B4B4" /></svg>
+
+            </div>
+            <div class="tarjeta-cuenta__cuerpo">
+                <h3 class="tarjeta-cuenta__razon_social"> EPEC </h3>
+                <div class="tarjeta-cuenta__fecha_vto">
+                    <p class="tarjeta-cuenta__fecha_vto_texto">Fecha de Vencimiento</p>
+                    <p class="tarjeta-cuenta__fecha_vto_fecha">18/03/2020</p>
+                </div>
+                <div class="tarjeta-cuenta__precio_comprobante--70">
+                    <h4 class="tarjeta-cuenta__valor"> $1.300</h4>
+                    <p class="tarjeta-cuenta__abrir_comprobante">Abrir comprobante</p>
+                </div>
+                <div class="tarjeta-cuenta__espacio--30">
+                    <a href="" title="" class="tarjeta-cuenta__boton-pagar boton-pagar"> PAGAR</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- TARJETA NIKE -->
+        <article class="fluid tarjeta-cuenta my-3">
+            <div class="tarjeta-cuenta__identificador">
+                <a href="" title="" class="tarjeta-cuenta__radius-button"> </a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="54" viewBox="0 0 52 54" fill="none">
+                    <path
+                        d="M40.9 16.9V13.5C40.9 6.1 34.2 0 26 0 17.8 0 11.1 6.1 11.1 13.5V16.9H0V45.6C0 50.2 4.2 54 9.3 54H42.7C47.8 54 52 50.2 52 45.6V16.9H40.9ZM18.6 13.5C18.6 9.8 21.9 6.8 26 6.8 30.1 6.8 33.4 9.8 33.4 13.5V16.9H18.6V13.5ZM37.1 26.2C35.6 26.2 34.4 25 34.4 23.6 34.4 22.2 35.6 21.1 37.1 21.1 38.7 21.1 39.9 22.2 39.9 23.6 39.9 25 38.7 26.2 37.1 26.2ZM14.9 26.2C13.3 26.2 12.1 25 12.1 23.6 12.1 22.2 13.3 21.1 14.9 21.1 16.4 21.1 17.6 22.2 17.6 23.6 17.6 25 16.4 26.2 14.9 26.2Z"
+                        fill="#B5B4B4" /></svg>
+
+            </div>
+            <div class="tarjeta-cuenta__cuerpo">
+                <h3 class="tarjeta-cuenta__razon_social"> NIKE </h3>
+                <div class="tarjeta-cuenta__fecha_vto">
+                    <p class="tarjeta-cuenta__fecha_vto_texto">Fecha de Vencimiento</p>
+                    <p class="tarjeta-cuenta__fecha_vto_fecha">10/03/2020</p>
+                </div>
+                <div class="tarjeta-cuenta__precio_comprobante--70">
+                    <h4 class="tarjeta-cuenta__valor"> $3.600</h4>
+                    <p class="tarjeta-cuenta__abrir_comprobante">Abrir comprobante</p>
+                </div>
+                <div class="tarjeta-cuenta__espacio--30">
+                    <a href="" title="" class="tarjeta-cuenta__boton-pagar boton-pagar"> PAGAR</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- TARJETA LACOSTE -->
+        <article class="fluid tarjeta-cuenta my-3">
+            <div class="tarjeta-cuenta__identificador">
+                <a href="" title="" class="tarjeta-cuenta__radius-button"> </a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="54" viewBox="0 0 52 54" fill="none">
+                    <path
+                        d="M40.9 16.9V13.5C40.9 6.1 34.2 0 26 0 17.8 0 11.1 6.1 11.1 13.5V16.9H0V45.6C0 50.2 4.2 54 9.3 54H42.7C47.8 54 52 50.2 52 45.6V16.9H40.9ZM18.6 13.5C18.6 9.8 21.9 6.8 26 6.8 30.1 6.8 33.4 9.8 33.4 13.5V16.9H18.6V13.5ZM37.1 26.2C35.6 26.2 34.4 25 34.4 23.6 34.4 22.2 35.6 21.1 37.1 21.1 38.7 21.1 39.9 22.2 39.9 23.6 39.9 25 38.7 26.2 37.1 26.2ZM14.9 26.2C13.3 26.2 12.1 25 12.1 23.6 12.1 22.2 13.3 21.1 14.9 21.1 16.4 21.1 17.6 22.2 17.6 23.6 17.6 25 16.4 26.2 14.9 26.2Z"
+                        fill="#B5B4B4" /></svg>
+
+            </div>
+            <div class="tarjeta-cuenta__cuerpo">
+                <h3 class="tarjeta-cuenta__razon_social"> LACOSTE </h3>
+                <div class="tarjeta-cuenta__fecha_vto">
+                    <p class="tarjeta-cuenta__fecha_vto_texto">Fecha de Vencimiento</p>
+                    <p class="tarjeta-cuenta__fecha_vto_fecha">25/03/2020</p>
+                </div>
+                <div class="tarjeta-cuenta__precio_comprobante--70">
+                    <h4 class="tarjeta-cuenta__valor"> $4.300</h4>
+                    <p class="tarjeta-cuenta__abrir_comprobante">Abrir comprobante</p>
+                </div>
+                <div class="tarjeta-cuenta__espacio--30">
+                    <a href="" title="" class="tarjeta-cuenta__boton-pagar boton-pagar"> PAGAR</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- TARJETA AMAZON -->
+        <article class="tarjeta-cuenta my-3">
+            <div class="tarjeta-cuenta__identificador ">
+                <a href="" title="" class="tarjeta-cuenta__radius-button"> </a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="51" height="48" viewBox="0 0 51 48" fill="none">
+                    <path
+                        d="M29.4 14C23.7 14.2 9.5 15.7 9.5 26.6 9.5 38.3 25.7 38.8 31 31.2 31.8 32.3 35.2 35.2 36.4 36.2L43 30.2C43 30.2 39.3 27.5 39.3 24.6V8.8C39.3 6.1 36.4 0 26.1 0 15.7 0 10.2 5.9 10.2 11.2L18.9 11.9C20.8 6.6 25.2 6.6 25.2 6.6 30 6.6 29.4 9.8 29.4 14ZM29.4 23.3C29.4 31.9 19.5 30.6 19.5 25.1 19.5 20.1 25.4 19.1 29.4 19V23.3ZM45.4 40.8C44.5 41.9 37.2 48 24.9 48 12.6 48 3.2 40.3 0.3 37.2 -0.5 36.4 0.4 36 1 36.3 9.6 41.1 23 48.9 44.7 39.5 45.6 39.1 46.3 39.8 45.4 40.8ZM50.1 41.1C49.3 42.8 48.2 43.9 47.6 44.4 46.9 44.9 46.5 44.7 46.8 44 47.2 43.3 49.1 39 48.3 38.1 47.5 37.2 44 37.6 42.7 37.7 41.4 37.8 41.1 38 41 37.7 40.7 37.1 43.6 36 45.4 35.8 47.3 35.6 50.2 35.7 50.8 36.4 51.3 37 50.8 39.3 50.1 41.1Z"
+                        fill="#B5B4B4" /></svg>
+
+            </div>
+            <div class="tarjeta-cuenta__cuerpo">
+                <h3 class="tarjeta-cuenta__razon_social"> AMAZON </h3>
+                <div class="tarjeta-cuenta__fecha_vto">
+                    <p class="tarjeta-cuenta__fecha_vto_texto">Fecha de Vencimiento</p>
+                    <p class="tarjeta-cuenta__fecha_vto_fecha">28/03/2020</p>
+                </div>
+                <div class="tarjeta-cuenta__precio_comprobante--70">
+                    <h4 class="tarjeta-cuenta__valor"> $2.300</h4>
+                    <p class="tarjeta-cuenta__abrir_comprobante">Abrir comprobante</p>
+                </div>
+                <div class="tarjeta-cuenta__espacio--30">
+                    <a href="" title="" class="tarjeta-cuenta__boton-pagar boton-pagar"> PAGAR</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- TARJETA ADIDAS -->
+        <article class="fluid tarjeta-cuenta my-3">
+            <div class="tarjeta-cuenta__identificador">
+                <a href="" title="" class="tarjeta-cuenta__radius-button"> </a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="54" viewBox="0 0 52 54" fill="none">
+                    <path
+                        d="M40.9 16.9V13.5C40.9 6.1 34.2 0 26 0 17.8 0 11.1 6.1 11.1 13.5V16.9H0V45.6C0 50.2 4.2 54 9.3 54H42.7C47.8 54 52 50.2 52 45.6V16.9H40.9ZM18.6 13.5C18.6 9.8 21.9 6.8 26 6.8 30.1 6.8 33.4 9.8 33.4 13.5V16.9H18.6V13.5ZM37.1 26.2C35.6 26.2 34.4 25 34.4 23.6 34.4 22.2 35.6 21.1 37.1 21.1 38.7 21.1 39.9 22.2 39.9 23.6 39.9 25 38.7 26.2 37.1 26.2ZM14.9 26.2C13.3 26.2 12.1 25 12.1 23.6 12.1 22.2 13.3 21.1 14.9 21.1 16.4 21.1 17.6 22.2 17.6 23.6 17.6 25 16.4 26.2 14.9 26.2Z"
+                        fill="#B5B4B4" /></svg>
+
+            </div>
+            <div class="tarjeta-cuenta__cuerpo">
+                <h3 class="tarjeta-cuenta__razon_social"> ADIDAS </h3>
+                <div class="tarjeta-cuenta__fecha_vto">
+                    <p class="tarjeta-cuenta__fecha_vto_texto">Fecha de Vencimiento</p>
+                    <p class="tarjeta-cuenta__fecha_vto_fecha">29/03/2020</p>
+                </div>
+                <div class="tarjeta-cuenta__precio_comprobante--70">
+                    <h4 class="tarjeta-cuenta__valor"> $1.430</h4>
+                    <p class="tarjeta-cuenta__abrir_comprobante">Abrir comprobante</p>
+                </div>
+                <div class="tarjeta-cuenta__espacio--30">
+                    <a href="" title="" class="tarjeta-cuenta__boton-pagar boton-pagar"> PAGAR</a>
+                </div>
+            </div>
+        </article>
+
+        <!-- TARJETA PUMA -->
+        <article class="fluid tarjeta-cuenta mt-3">
+            <div class="tarjeta-cuenta__identificador">
+                <a href="" title="" class="tarjeta-cuenta__radius-button"> </a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="54" viewBox="0 0 52 54" fill="none">
+                    <path
+                        d="M40.9 16.9V13.5C40.9 6.1 34.2 0 26 0 17.8 0 11.1 6.1 11.1 13.5V16.9H0V45.6C0 50.2 4.2 54 9.3 54H42.7C47.8 54 52 50.2 52 45.6V16.9H40.9ZM18.6 13.5C18.6 9.8 21.9 6.8 26 6.8 30.1 6.8 33.4 9.8 33.4 13.5V16.9H18.6V13.5ZM37.1 26.2C35.6 26.2 34.4 25 34.4 23.6 34.4 22.2 35.6 21.1 37.1 21.1 38.7 21.1 39.9 22.2 39.9 23.6 39.9 25 38.7 26.2 37.1 26.2ZM14.9 26.2C13.3 26.2 12.1 25 12.1 23.6 12.1 22.2 13.3 21.1 14.9 21.1 16.4 21.1 17.6 22.2 17.6 23.6 17.6 25 16.4 26.2 14.9 26.2Z"
+                        fill="#B5B4B4" /></svg>
+
+            </div>
+            <div class="tarjeta-cuenta__cuerpo">
+                <h3 class="tarjeta-cuenta__razon_social"> PUMA </h3>
+                <div class="tarjeta-cuenta__fecha_vto">
+                    <p class="tarjeta-cuenta__fecha_vto_texto">Fecha de Vencimiento</p>
+                    <p class="tarjeta-cuenta__fecha_vto_fecha">05/04/2020</p>
+                </div>
+                <div class="tarjeta-cuenta__precio_comprobante--70">
+                    <h4 class="tarjeta-cuenta__valor"> $2.600</h4>
+                    <p class="tarjeta-cuenta__abrir_comprobante">Abrir comprobante</p>
+                </div>
+                <div class="tarjeta-cuenta__espacio--30">
+                    <a href="" title="" class="tarjeta-cuenta__boton-pagar boton-pagar"> PAGAR</a>
+                </div>
+            </div>
+        </article>
+
+    </Main>
+    <footer>
+
+        <!-- Navigation -->
+        <div class="contenedor_nav">
+            <nav class="navigation row d-flex justify-content-between">
+                <div class="navigation__logo">
+                    <a href="index.html" class="back-arrow"><i class="fas fa-chevron-left fa-2x"></i></a>
+                </div>
+
+                <div class="collapsible col-xs-12">
+                    <i class="fas fa-bell fa-2x mr-5"></i>
+                    <input type="checkbox" id="menu">
+                    <label for="menu"> <i class="fas fa-bars"></i></label>
+                    <div class="navigation__container">
+                        <ul class="navigation__list">
+                            <li class="navigation__item"><a href="#"> MIS PUNTOS</a></li>
+                            <li class="navigation__item"><a href="#">ACTIVIDAD RECIENTE</a></li>
+                            <li class="navigation__item"><a href="#">MIS CUENTAS</a></li>
+                            <li class="navigation__item"><a href="#">MEDIOS DE PAGO</a></li>
+                            <li class="navigation__item"><a href="#">PAGAR CUENTAS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+    <!-- jQuery first -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
