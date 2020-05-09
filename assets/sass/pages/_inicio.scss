@@ -1,0 +1,25 @@
+.margen100{
+    margin-top: 100px;
+}
+
+.titulo_pantalla{
+    font-size: $enorme;
+    font-weight: $negra;
+    color: $gris2;
+}
+
+.info_pago{
+    padding: 0px;
+    color: $gris2;
+}
+
+ul.info_pago li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info_pago__valor{
+    font-weight: $pesada;
+}

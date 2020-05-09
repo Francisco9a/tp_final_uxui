@@ -31,8 +31,10 @@
 ;
 
 // // 6. Page-specific styles
-// @import
-//   'pages/home';
+@import
+  'pages/inicio',
+  'pages/cuenta-por-pagar',
+  'pages/comprobante-compra';
 
 // // 7. Themes
 // @import

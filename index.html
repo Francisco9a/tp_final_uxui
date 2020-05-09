@@ -16,7 +16,8 @@
     <header class="header">
         <div class="encabezado">
 
-            <svg xmlns="http://www.w3.org/2000/svg" class="header-logo" width="43" height="43" viewBox="0 0 137 161" class="a header-logo">
+            <svg xmlns="http://www.w3.org/2000/svg" class="header-logo" width="43" height="43" viewBox="0 0 137 161"
+                class="a header-logo">
 
                 <path
                     d="M56.4 136.9C87.6 136.9 112.8 111.6 112.8 80.5 112.8 49.4 87.6 24.1 56.4 24.1 56.2 24.1 56.1 24.1 55.9 24.1V136.9C56.1 136.9 56.2 136.9 56.4 136.9ZM44.2 135.5V95.1H15.1C18.1 103.7 23.8 111.1 31.2 116.3L24 126.6C21.7 125 19.5 123.2 17.5 121.3 24.8 128.3 34 133.3 44.2 135.5ZM15.8 119.6C10.1 113.7 5.7 106.6 3 98.8 -0.8 87.5-1 75.3 2.5 63.9 5.1 55.4 9.7 47.7 15.8 41.4 6 51.5 0 65.3 0 80.5 0 95.7 6 109.5 15.8 119.6ZM17.3 39.9C19 38.3 20.7 36.8 22.6 35.4 32.1 28.2 43.7 24.3 55.6 24.1L55.6 24.2 55.9 24.1C40.9 24.3 27.3 30.3 17.3 39.9ZM44.2 38.5V82.7H12.7C12.4 77.6 13 72.5 14.5 67.6 17.3 58.8 22.7 51 30.2 45.5 34.4 42.3 39.1 39.9 44.2 38.5Z"
@@ -67,17 +68,21 @@
         </div>
 
         <div class="botones mt-3">
-            <button type="button" class="btn btn-warning" style="padding: 5px; font-weight: 500;color: white;">CREAR
+            <button onclick="crearCuenta()" type="button" class="btn btn-warning" id="crear_cuenta"
+                style="padding: 5px; font-weight: 500;color: white;">CREAR
                 CUENTA</button>
+
+
+
             <a href="" title="" class="boton-pagar-todo">
                 PAGAR TODO </a>
     </header>
     </div>
     <!------------------- Cuerpo Cuentas a Pagar ----------------------------------->
-    <Main class="fluid">
+    <Main class="fluid" id="cuerpo">
 
         <!-- TARJETA ECOGAS -->
-        <article class="fluid tarjeta-cuenta my-2">
+        <article class="fluid tarjeta-cuenta my-2" id="aaa">
             <div class="tarjeta-cuenta__identificador">
                 <a href="" title="" href="" title="" class="tarjeta-cuenta__radius-button"></a>
                 <svg xmlns="http://www.w3.org/2000/svg" width="49" height="71" viewBox="0 0 49 71" class="a">
@@ -307,6 +312,9 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
+
+        
+    <!-- Propio Js -->
     <script src="assets/js/script.js"></script>
 </body>
 

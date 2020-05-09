@@ -1,0 +1,36 @@
+
+.info_pago{
+    padding: 0px;
+    color: $gris2;
+}
+
+ul.info_pago li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info_pago__valor{
+    font-weight: $pesada;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    font-weight: $pesada;
+    padding: 10px;
+    margin: 0px;
+}
+
+.desea_pagar{
+    font-size: $grande;
+    color: $azul;
+    font-weight: $pesada;
+}
+
+.info_pago__monto .info_pago__valor{
+    color: $azul;
+}

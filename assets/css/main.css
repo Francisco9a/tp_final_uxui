@@ -10458,7 +10458,7 @@ li.navigation__item a {
 }
 
 div.contenedor_nav {
-  background-color: #FFF9E5;
+  background-color: #EEAC02;
   position: fixed;
   bottom: 0px;
   width: 411px;
@@ -10469,19 +10469,23 @@ div.contenedor_nav {
   position: absolute;
   top: 8px;
   right: 20px;
+  color: #ffffff;
 }
 .fa-bell:hover {
   color: #4f4f4f;
   cursor: pointer;
 }
 
+.fa-bars {
+  color: #ffffff;
+}
 .fa-bars:hover {
   color: #4f4f4f;
   cursor: pointer;
 }
 
 .back-arrow {
-  color: black;
+  color: #ffffff;
   border: none;
   background: rgba(0, 0, 0, 0);
 }
@@ -10635,6 +10639,21 @@ ul.info_pago li {
   font-weight: 700;
 }
 
+.info_pago {
+  padding: 0px;
+  color: #4f4f4f;
+}
+
+ul.info_pago li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info_pago__valor {
+  font-weight: 700;
+}
+
 .tarjetas {
   display: flex;
   justify-content: space-between;
@@ -10643,12 +10662,6 @@ ul.info_pago li {
   font-weight: 700;
   padding: 10px;
   margin: 0px;
-}
-
-.tarjetas_flechas {
-  position: absolute;
-  right: 8px;
-  bottom: 10px;
 }
 
 .desea_pagar {

@@ -64,7 +64,7 @@ li.navigation__item {
 
 
 div.contenedor_nav{
-    background-color: $amarillo_claro;
+    background-color: $amarillo;
 position: fixed;
 bottom: 0px;
 width: 411px;
@@ -76,7 +76,7 @@ box-shadow: 0px 2px 5px lightgray, 0px -2px 5px lightgray,-2px 0px 5px lightgray
     position: absolute;
     top: 8px;
     right: 20px;
-
+    color: $blanco;
     &:hover{
         color: $gris2;
         cursor: pointer;
@@ -85,7 +85,7 @@ box-shadow: 0px 2px 5px lightgray, 0px -2px 5px lightgray,-2px 0px 5px lightgray
 }
 
 .fa-bars{
-
+color: $blanco;
     &:hover{
         color: $gris2;
         cursor: pointer;
@@ -93,7 +93,7 @@ box-shadow: 0px 2px 5px lightgray, 0px -2px 5px lightgray,-2px 0px 5px lightgray
 }
 
 .back-arrow{
-    color: black;
+    color: $blanco;
     border: none;
     background: rgba(0, 0, 0, 0);
     
